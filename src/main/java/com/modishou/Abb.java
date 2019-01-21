@@ -1,4 +1,4 @@
-package com.modishou;
+package modishou;
 
 /**
  * @Author: modishou
