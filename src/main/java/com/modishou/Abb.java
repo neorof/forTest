@@ -6,9 +6,6 @@ package com.modishou;
  */
 public class Abb {
     public static void main(String[] args) {
-        System.out.println("魔笛手分支");
-        System.out.println("+++6");
-        System.out.println("+++modishou1");
-        System.out.println("+++modishou2");
+        System.out.println("脛搂碌脩脢脰路脰脰搂");
     }
 }
