@@ -1,4 +1,4 @@
-package modishou;
+package com.modishou;
 
 /**
  * @Author: modishou
@@ -6,6 +6,7 @@ package modishou;
  */
 public class Abb {
     public static void main(String[] args) {
+        System.out.println("魔笛手分支");
         System.out.println("魔笛手分支");
     }
 }
