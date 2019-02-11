@@ -10,5 +10,6 @@ public class Abb {
         System.out.println("+++3");
         System.out.println("+++master1");
         System.out.println("+++modishou1");
+        System.out.println("+++modishou2");
     }
 }
