@@ -7,5 +7,6 @@ package com.modishou;
 public class Abb {
     public static void main(String[] args) {
         System.out.println("+++---");
+        System.out.println("1");
     }
 }
