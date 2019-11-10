@@ -20,6 +20,11 @@ public class MyLruLinkedHashMap<K, V> {
         //防止达到负载扩容
         int capacity = (int) Math.ceil(MAX_SIZE / DEFAULT_LOAD_FACTORY) + 1;
         cache = new LinkedHashMap<K, V>(capacity, DEFAULT_LOAD_FACTORY, true) {
+            /**
+             *
+             */
+            private static final long serialVersionUID = 6150824585695661165L;
+
             @Override
             protected boolean removeEldestEntry(Map.Entry<K,V> eldest) {
                 return cache.size() > MAX_SIZE;
